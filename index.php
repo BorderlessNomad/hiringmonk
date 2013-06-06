@@ -44,7 +44,7 @@
                 <a class="btn-nav" data-toggle="collapse" data-target=".nav-collapse">
                     <i class="icon-reorder"></i>
                 </a>
-                <div class="nav-collapse collapse">
+                <div class="nav-collapse collapse float-right">
                     <ul class="nav navigation" id="menu">
                         <li class="active"><a title="Home page" class="scroll brand-1" href="#home">Home</a></li>
                         <li><a title="Check out our awesome services" href="#features" class=" scroll brand-4">Features</a></li>
@@ -52,6 +52,9 @@
                         <li><a title="Who we are" href="#about" class="scroll fadeto brand-4"> About us</a></li>
                         <li><a title="Get in touch!" href="#contact" class="scroll brand-2">Contact</a></li>
                     </ul>
+                </div>
+                <div class="nav-collapse collapse callus">
+                    Call us now on <strong>(+91) 98 7061 7199</strong>
                 </div>
             </div>
         </header>

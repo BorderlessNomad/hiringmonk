@@ -1089,6 +1089,7 @@ ul{list-style:none;}
 .btn-map div:hover{background:#e46c0a;}
 h1,h2,h3,h4,h5,h6{font-weight:300;line-height:110%;color:#ffffff;padding:0px 20px 0px 0;margin:30px 0;}
 .logo{margin:0;padding:0px;font-size:25px;float:left;letter-spacing:1px;font-weight:600;}
+.callus{display: inline-block !important; float: right; margin: 8px 25px 0 0;}
 .page-headline{font-size:42px;text-align:center;padding-top:0;}
 .large{font-size:52px;}
 .lead{font-size:22px;line-height:28px;}
