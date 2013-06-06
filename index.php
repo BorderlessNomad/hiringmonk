@@ -156,8 +156,6 @@
                 <div class="offset1 span10 lazy-container">
                     <div class="btn-container">
                         <img class="figurette lazy" src="assets/img/pixel.png" data-original="assets/img/how_it_works.png" alt="How it works" />
-                        <a href="assets/img/how_it_works.png" class="lightbox btn-play" target="_blank">
-                            <i class="icon-zoom-in"></i></a>
                     </div>
                 </div>
             </div>
@@ -325,20 +323,13 @@
             </div>
             <div class="row-fluid inner-page contact">
                 <div class="span6">
-                    <?php if(isset($_SESSION['status']) || !$_SESSION['status']) : ?>
-                        <?php if(!empty($_SESSION['message'])) : ?>
-                            <h3>Error: <?php echo $_SESSION['message']; ?></h3>    
-                        <?php endif; ?>
-                        <h3>We can talk about anything and everything. We’re just a click away</h3>
-                        <form name="contact_form" method="POST" action="send_mail.php">
-                            <textarea rows="6" name="message" placeholder="Your message & contact number"></textarea>
-                            <input type="text" name="email" placeholder="your@e-mail.com"><br/>
-                            <input type="text" name="name" placeholder="Name"><br/>
-                            <button class="btn btn-centered">Contact us</button>
-                        </form>
-                    <?php else : ?>
-                        <h3>We can talk about anything and everything. We’re just a click away</h3>
-                    <?php endif; ?>
+                    <h3>We can talk about anything and everything. We’re just a click away</h3>
+                    <form name="contact_form" method="POST" action="send_mail.php">
+                        <textarea rows="6" name="message" placeholder="Your message & contact number"></textarea>
+                        <input type="text" name="email" placeholder="your@e-mail.com"><br/>
+                        <input type="text" name="name" placeholder="Name"><br/>
+                        <button class="btn btn-centered">Contact us</button>
+                    </form>
                 </div>
                 <div class="span6">
                     <div class="btn-container centered lazy-container text-center">
