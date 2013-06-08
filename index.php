@@ -1,30 +1,29 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Proudly designed by Mayur Ahir (http://www.mayurahir.com) -->
-    <meta charset="utf-8">
-    <title>HiringMonk - HR recruitment consultancy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="hr recruitment consultancy">
-    <meta name="author" content="prettystrap">
-    <!-- Le styles -->
-    <link href="assets/less/style.min.css" rel="stylesheet">
-    <!--Import Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <head>
+        <!-- Proudly designed by Mayur Ahir (http://www.mayurahir.com) -->
+        <meta charset="utf-8">
+        <title>HiringMonk - HR recruitment consultancy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="hr recruitment consultancy">
+        <meta name="author" content="prettystrap">
+        <!-- Le styles -->
+        <link href="assets/less/style.min.css" rel="stylesheet">
+        <!--Import Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
-              <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-              </script>
-              <![endif]-->
-              <!-- Le fav  -->
-              <link rel="shortcut icon" href="assets/ico/favicon.ico">
-              <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-              <script>
-              if (typeof jQuery == 'undefined') {
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!-- Le fav  -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>
+            if (typeof jQuery == 'undefined') {
                 document.write(unescape("%3Cscript src='assets/js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
             }
-            </script>
+        </script>
         <!--Has to be in head, to lazy load images.
         Minimize in production. -->
         <script src="assets/js/lazyload.js"></script>
@@ -266,7 +265,7 @@
         <!-- Team -->
         <div class="row-fluid inner-page team">
             <div class="lazy-container span6 text-left">
-                <img class="pull-left lazy figurette" alt="Open the map" src="assets/img/pixel.png" data-original="assets/img/cookies.png" alt="Ateeque Shaikh"/>
+                <img class="pull-left lazy figurette" src="assets/img/pixel.png" data-original="assets/img/ateeque_shaikh.png" alt="Ateeque Shaikh"/>
                 <h4>Ateeque Shaikh</h4>
                 <p class="small_font">
                     Ateeque comes from HR background with more than 15 years of professional practices. 
@@ -278,7 +277,7 @@
                 </ul>
             </div>
             <div class="lazy-container span6 text-left team2">
-                <img class="pull-left lazy figurette" alt="Open the map" src="assets/img/pixel.png" data-original="assets/img/cookies.png" alt="Preetam Salian"/>
+                <img class="pull-left lazy figurette" src="assets/img/pixel.png" data-original="assets/img/preetam_salian.png" alt="Preetam Salian"/>
                 <h4>Preetam Salian</h4>
                 <p class="small_font">
                     Preetam has mastered in sales and business development. 
@@ -317,7 +316,7 @@
                 <div class="span6">
                     <div class="btn-container centered lazy-container text-center">
                         <img src="assets/img/pixel.png" class="lazy figurette" alt="Open the map" data-original="assets/img/map.png"/>
-                        <a class="lightbox iframe btn-map" target="blank" title="Open google maps" href="https://maps.google.com/maps?q=Mukadam+Compound%2C+Goregaon+Mulund+Link+Road%2C+Near+Oberoi+Mall%2C+Mumbai%2C+Maharashtra%2C+India&amp;hl=en"><i class="pull-left icon-map-marker"></i>
+                        <a class="lightbox iframe btn-map" target="blank" title="Open google maps" href="https://maps.google.com/maps?q=Mukadam Compound, Goregaon Mulund Link Road, Near Oberoi Mall, Mumbai, Maharashtra, India&hl=en&ie=UTF8&hq=Mukadam Compound, Goregaon Mulund Link Road,&hnear=Oberoi Shopping Mall, India&t=m&cid=3223028988865742278&ll=19.173059,72.856865&spn=0.038913,0.054932&z=14&iwloc=A"><i class="pull-left icon-map-marker"></i>
                             <div>
                                 C/9, Mukadam Compound,<br/>Goregaon Mulund Link Road,<br/>Near Oberoi Mall, Goregaon-East,<br/>Mumbai, Maharashtra.
                             </div>
@@ -331,8 +330,8 @@
         <div class="clients color-3">
             <div class="inner-page row-fluid" style="padding: 0;">
                 <ul class="clients list-inline">
-                    <li><a href="#" >Our Clients</a></li>
-                    <li><a href="#" >FAQs</a></li>
+                    <li><a class="lightbox iframe" href="./clients.php" >Our Clients</a></li>
+                    <li><a class="lightbox iframe" href="./faqs.php" >FAQs</a></li>
                 </ul>
             </div>
         </div>
@@ -342,7 +341,6 @@
             <div class="inner-page row-fluid">
                 <div class="span6 social">
                     <a href="http://twitter.com/hiringmonk" title="@hiringmonk"><i class="icon-twitter"></i></a>
-                    <a href="#contact"><i class="icon-github-sign"></i></a>
                     <a href="#contact"><i class="icon-facebook-sign"></i></a>
                     <a href="#contact"><i class="icon-google-plus-sign"></i></a>
                 </div>

@@ -1,0 +1,1 @@
+<img alt="Our Clients" src="assets/img/clientele.png" style="max-width: 100%; height: auto; width: auto\9;" />
