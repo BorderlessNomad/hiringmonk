@@ -1055,8 +1055,9 @@ hr{width:50%;margin:30px auto;}
 ul{list-style:none;}
 .list-inline li{display:inline-block;padding-right:8px;}
 .clients h2{color:#ffffff;}
-.clients ul{font-size:32px;font-weight:400;text-align:center;}
-.clients li{background:#e46c0a;width:210px;padding:15px!important;margin-bottom:10px;-webkit-transition:background 0.6s;-moz-transition:background 0.6s;-o-transition:background 0.6s;transition:background 0.6s;}.clients li:hover{cursor:pointer;background:#235c75;}
+.clients ul{font-size:32px;font-weight:400;text-align:center; height: 60px; margin: 35px 0 0;}
+.clients li a {background: #e46c0a !important; color: #ffffff !important; text-decoration: none; width:210px; padding:5px 15px !important; margin-bottom:10px; -webkit-transition: background 0.6s !important; -moz-transition: background 0.6s !important; -o-transition: background 0.6s !important; transition: background 0.6s !important;}
+.clients li a:hover {cursor:pointer; background:#E68536 !important;}
 .features{text-align:center;}.features h3{font-size:32px;}
 .features li{max-width:310px;text-align:left;margin:0 10px;}.features li i{color:#e46c0a;font-size:32px;padding-top:30px;}
 .big-list{font-size:25px;font-weight:300;}.big-list li{line-height:35px;height:50px;margin:10px;}

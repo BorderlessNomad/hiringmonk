@@ -1,32 +1,32 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Proudly designed by Mayur Ahir (http://www.mayurahir.com) -->
-        <meta charset="utf-8">
-        <title>HiringMonk - HR recruitment consultancy</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="hr recruitment consultancy">
-        <meta name="author" content="prettystrap">
-        <!-- Le styles -->
-        <link href="assets/less/style.min.css" rel="stylesheet">
-        <!--Import Google Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
-        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<head>
+    <!-- Proudly designed by Mayur Ahir (http://www.mayurahir.com) -->
+    <meta charset="utf-8">
+    <title>HiringMonk - HR recruitment consultancy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="hr recruitment consultancy">
+    <meta name="author" content="prettystrap">
+    <!-- Le styles -->
+    <link href="assets/less/style.min.css" rel="stylesheet">
+    <!--Import Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
               <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
               </script>
-            <![endif]-->
-        <!-- Le fav  -->
-        <link rel="shortcut icon" href="assets/ico/favicon.ico">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>
-            if (typeof jQuery == 'undefined') {
+              <![endif]-->
+              <!-- Le fav  -->
+              <link rel="shortcut icon" href="assets/ico/favicon.ico">
+              <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+              <script>
+              if (typeof jQuery == 'undefined') {
                 document.write(unescape("%3Cscript src='assets/js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
             }
-        </script>
+            </script>
         <!--Has to be in head, to lazy load images.
-            Minimize in production. -->
+        Minimize in production. -->
         <script src="assets/js/lazyload.js"></script>
         <script src="assets/js/jRespond.js"></script>
         <script src="assets/js/spin.js"></script>
@@ -118,190 +118,173 @@
                     <p class="lead">
                             Subtitle here
                     </p>
-                    -->
-                    <ul class="list-wide">
-                        <li><i class="icon-check"></i> No more 8.33% or such hiring fees; one operation runs for 30 days</li>
-                        <li><i class="icon-check"></i> Pay just 50% before hiring and rest once you hire a candidate</li>
-                        <li><i class="icon-check"></i> Devoted recruiter, with cross sector experience</li>
-                        <li><i class="icon-check"></i> Streamlined processes enabling constant feedback</li>
-                        <li><i class="icon-check"></i> Hiring guaranteed or the HiringMonk refunds your money *</li>
-                    </ul>
+                -->
+                <ul class="list-wide">
+                    <li><i class="icon-check"></i> No more 8.33% or such hiring fees; one operation runs for 30 days</li>
+                    <li><i class="icon-check"></i> Pay just 50% before hiring and rest once you hire a candidate</li>
+                    <li><i class="icon-check"></i> Devoted recruiter, with cross sector experience</li>
+                    <li><i class="icon-check"></i> Streamlined processes enabling constant feedback</li>
+                    <li><i class="icon-check"></i> Hiring guaranteed or the HiringMonk refunds your money *</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <!-- Video -->
+        <div class="row-fluid inner-page">
+            <div class="span6 pull-right">
+                <div class="btn-container figurette">
+                    <img class="figurette lazy" src="assets/img/pixel.png" data-original="assets/img/two-phones.png" alt="New features for niche profiles" />
                 </div>
             </div>
-            <hr>
-            <!-- Video -->
-            <div class="row-fluid inner-page">
-                <div class="span6 pull-right">
-                    <div class="btn-container figurette">
-                        <img class="figurette lazy" src="assets/img/pixel.png" data-original="assets/img/two-phones.png" alt="New features for niche profiles" />
-                    </div>
-                </div>
-                <div class="span6 pull-right">
-                    <ul class="big-list">
-                        <li><h3>New features for niche profiles</h3></li>
-                        <li><i class="icon-play"></i> Intelligent CVs</li>
-                        <li><i class="icon-resize-full"></i> Video resumes</li>
-                        <li><i class="icon-desktop"></i> Extended time frame</li>
-                    </ul>
-                    <br/>
+            <div class="span6 pull-right">
+                <ul class="big-list">
+                    <li><h3>New features for niche profiles</h3></li>
+                    <li><i class="icon-play"></i> Intelligent CVs</li>
+                    <li><i class="icon-resize-full"></i> Video resumes</li>
+                    <li><i class="icon-desktop"></i> Extended time frame</li>
+                </ul>
+                <br/>
+            </div>
+        </div>
+    </div>
+    <!-- /Features -->
+
+    <!-- Pricing page -->
+    <div id="pricing" class="page color-3">
+        <div class="inner-page">
+            <h2 class="page-headline">This is how we work</h2>
+        </div>
+
+        <div class="row-fluid inner-page">
+            <div class="offset1 span10 lazy-container">
+                <div class="btn-container">
+                    <img class="figurette lazy" src="assets/img/pixel.png" data-original="assets/img/how_it_works.png" alt="How it works" />
                 </div>
             </div>
         </div>
-        <!-- /Features -->
 
-        <!-- Pricing page -->
-        <div id="pricing" class="page color-3">
-            <div class="inner-page">
-                <h2 class="page-headline">This is how we work</h2>
-            </div>
+        <hr/>
 
-            <div class="row-fluid inner-page">
-                <div class="offset1 span10 lazy-container">
-                    <div class="btn-container">
-                        <img class="figurette lazy" src="assets/img/pixel.png" data-original="assets/img/how_it_works.png" alt="How it works" />
+        <div class="inner-page">
+            <h2 class="page-headline">Pricing</h2>
+        </div>
+
+        <!-- Prices -->
+        <div class="row-fluid inner-page">
+            <div class="span12">
+                <div class="pricingtable">
+                    <div class="price_top">
+                        <h2>Basic</h2>
                     </div>
-                </div>
-            </div>
-
-            <hr/>
-
-            <div class="inner-page">
-                <h2 class="page-headline">Pricing</h2>
-            </div>
-
-            <!-- Prices -->
-            <div class="row-fluid inner-page">
-                <div class="span12">
-                    <div class="pricingtable">
-                        <div class="price_top">
-                            <h2>Basic</h2>
-                        </div>
-                        <ul>
-                            <li>Devoted recruiter</li>
-                            <li>Job postings</li>
-                            <li>Tele-interview</li>
-                            <li>Scheduling</li>
-                            <li>Follow-up</li>
-                            <li>&mdash;</li>
-                            <li>&mdash;</li>
-                            <li>&mdash;</li>
-                            <li>&mdash;</li>
-                            <li>&mdash;</li>
-                            <li>&mdash;</li>
-                        </ul>
-                        <hr>
-                        <h3><sup>Rs</sup>10,999</h3>
-                        <p>30 Days</p>
-                        <a href="#contact">Call Us</a>
-                    </div>
-                    <div class="pricingtable featured">
-                        <div class="price_top">
-                            <h2>Pro</h2>
-                        </div>
-                        <ul>
-                            <li>Devoted recruiter</li>
-                            <li>Job postings</li>
-                            <li>Tele-interview</li>
-                            <li>Scheduling</li>
-                            <li>Follow-up</li>
-                            <li>Head-hunting</li>
-                            <li>Reference check</li>
-                            <li>Salary negotiation</li>
-                            <li>&mdash;</li>
-                            <li>&mdash;</li>
-                            <li>&mdash;</li>
-                        </ul>
-                        <hr>
-                        <h3><sup>Rs</sup>19,999</h3>
-                        <p>30 Days</p>
-                        <a href="#contact">Call Us</a>
-                    </div>
-                    <div class="pricingtable">
-                        <div class="price_top">
-                            <h2>Ultimate</h2>
-                        </div>
-                        <ul>
-                            <li>Devoted recruiter</li>
-                            <li>Job postings</li>
-                            <li>Tele-interview</li>
-                            <li>Scheduling</li>
-                            <li>Follow-up</li>
-                            <li>Head-hunting</li>
-                            <li>Reference check</li>
-                            <li>Salary negotiation</li>
-                            <li>LinkedIn Posting</li>
-                            <li>Intelligent CVs</li>
-                            <li>Video resume</li>
-                        </ul>
-                        <hr>
-                        <h3><sup>Rs</sup>29,999</h3>
-                        <p>45 Days</p>
-                        <a href="#contact">Call Us</a>
-                    </div>
-                </div>
-            </div> 
-            <!-- /Prices -->
-
-            <hr/>
-
-            <!-- Clients -->
-            <!--
-            <div class="clients color-1">
-                    <div class="inner-page">
-                            <h2 class="page-headline">Who's using stories.</h2>
-                    </div>
-                    <div class="inner-page row-fluid">
-                            <ul class="clients list-inline">
-                                    <li><i class="icon-globe"></i> Earth</li>
-                    <li><i class="icon-heart"></i> Love</li>
-                    <li><i class="icon-leaf"></i> Leaves</li>
-                    <li><i class="icon-cloud"></i> Clouds</li>
-                            </ul>
-                    </div>
-            </div>
-            -->
-        </div> 
-        <!-- /Pricing page -->
-        
-        <!-- About page -->
-        <div id="about" class="page color-4">
-            <div class="inner-page">
-                <h2 class="page-headline">Meet the Monks.</h2>
-            </div>
-            <div class="row-fluid inner-page">
-                <div class="span6 lazy-container">
-                    <img class="figurette lazy" src="assets/img/pixel.png" data-original="assets/img/green-office.png" alt="Our workspace"/>
-                </div>
-                <div class="span6">
-                    <h3>Our story.</h3>
-                    <p class="lead">
-                        Back in 2010, when Ateeque and Preetam met, it was just evident that both had entrepreneurial mindset and synergies in areas of interest. That’s where the seed of HiringMonk was placed. Over the last few of years both of them mastered their respective skills, gave up their cushiony jobs and established the startup for solving all hiring pains for our clients. And like all start-up stories, they worked from home and slowly graduated to the level they are on, right now.
-                    </p>
-                </div>
-            </div>
-            <hr>
-            <!-- Team -->
-            <div class="row-fluid inner-page team">
-                <div class="lazy-container span6 text-left">
-                    <img class="pull-left lazy figurette" alt="Open the map" src="assets/img/pixel.png" data-original="assets/img/cookies.png" alt="Ateeque Shaikh"/>
-                    <h4>Ateeque Shaikh</h4>
-                    <p class="small_font">
-                        Ateeque comes from HR background with more than 15 years of professional practices. 
-                        Graduated in Electrical Engineering, MBA from ICFAI and Post grad in HR by academics & immensely sincere when it comes to delivery. 
-                        Workaholic by nature, updated about industry norms and yet finds time to watch every single movie. 
-                    </p>
                     <ul>
-                        <li class="small_font"><i class="icon-envelope-alt"></i><a href="ateeque@hiringmonk.com"> ateeque@hiringmonk.com</a></li>
+                        <li>Devoted recruiter</li>
+                        <li>Job postings</li>
+                        <li>Tele-interview</li>
+                        <li>Scheduling</li>
+                        <li>Follow-up</li>
+                        <li>&mdash;</li>
+                        <li>&mdash;</li>
+                        <li>&mdash;</li>
+                        <li>&mdash;</li>
+                        <li>&mdash;</li>
+                        <li>&mdash;</li>
                     </ul>
+                    <hr>
+                    <h3><sup>Rs</sup>10,999</h3>
+                    <p>30 Days</p>
+                    <a href="#contact">Call Us</a>
                 </div>
-                <div class="lazy-container span6 text-left team2">
-                    <img class="pull-left lazy figurette" alt="Open the map" src="assets/img/pixel.png" data-original="assets/img/cookies.png" alt="Preetam Salian"/>
-                    <h4>Preetam Salian</h4>
-                    <p class="small_font">
-                        Preetam has mastered in sales and business development. 
-                        Has been a part of several start-ups before he came up with the idea of HiringMonk.
-                        He also helped couple of start-up for integral business strategies.
-                        Loves food, football and fitness; you would surely find him adding life to the party.
+                <div class="pricingtable featured">
+                    <div class="price_top">
+                        <h2>Pro</h2>
+                    </div>
+                    <ul>
+                        <li>Devoted recruiter</li>
+                        <li>Job postings</li>
+                        <li>Tele-interview</li>
+                        <li>Scheduling</li>
+                        <li>Follow-up</li>
+                        <li>Head-hunting</li>
+                        <li>Reference check</li>
+                        <li>Salary negotiation</li>
+                        <li>&mdash;</li>
+                        <li>&mdash;</li>
+                        <li>&mdash;</li>
+                    </ul>
+                    <hr>
+                    <h3><sup>Rs</sup>19,999</h3>
+                    <p>30 Days</p>
+                    <a href="#contact">Call Us</a>
+                </div>
+                <div class="pricingtable">
+                    <div class="price_top">
+                        <h2>Ultimate</h2>
+                    </div>
+                    <ul>
+                        <li>Devoted recruiter</li>
+                        <li>Job postings</li>
+                        <li>Tele-interview</li>
+                        <li>Scheduling</li>
+                        <li>Follow-up</li>
+                        <li>Head-hunting</li>
+                        <li>Reference check</li>
+                        <li>Salary negotiation</li>
+                        <li>LinkedIn Posting</li>
+                        <li>Intelligent CVs</li>
+                        <li>Video resume</li>
+                    </ul>
+                    <hr>
+                    <h3><sup>Rs</sup>29,999</h3>
+                    <p>45 Days</p>
+                    <a href="#contact">Call Us</a>
+                </div>
+            </div>
+        </div> 
+        <!-- /Prices -->
+
+        <hr/>
+    </div> 
+    <!-- /Pricing page -->
+
+    <!-- About page -->
+    <div id="about" class="page color-4">
+        <div class="inner-page">
+            <h2 class="page-headline">Meet the Monks.</h2>
+        </div>
+        <div class="row-fluid inner-page">
+            <div class="span6 lazy-container">
+                <img class="figurette lazy" src="assets/img/pixel.png" data-original="assets/img/green-office.png" alt="Our workspace"/>
+            </div>
+            <div class="span6">
+                <h3>Our story.</h3>
+                <p class="lead">
+                    Back in 2010, when Ateeque and Preetam met, it was just evident that both had entrepreneurial mindset and synergies in areas of interest. That’s where the seed of HiringMonk was placed. Over the last few of years both of them mastered their respective skills, gave up their cushiony jobs and established the startup for solving all hiring pains for our clients. And like all start-up stories, they worked from home and slowly graduated to the level they are on, right now.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <!-- Team -->
+        <div class="row-fluid inner-page team">
+            <div class="lazy-container span6 text-left">
+                <img class="pull-left lazy figurette" alt="Open the map" src="assets/img/pixel.png" data-original="assets/img/cookies.png" alt="Ateeque Shaikh"/>
+                <h4>Ateeque Shaikh</h4>
+                <p class="small_font">
+                    Ateeque comes from HR background with more than 15 years of professional practices. 
+                    Graduated in Electrical Engineering, MBA from ICFAI and Post grad in HR by academics & immensely sincere when it comes to delivery. 
+                    Workaholic by nature, updated about industry norms and yet finds time to watch every single movie. 
+                </p>
+                <ul>
+                    <li class="small_font"><i class="icon-envelope-alt"></i><a href="ateeque@hiringmonk.com"> ateeque@hiringmonk.com</a></li>
+                </ul>
+            </div>
+            <div class="lazy-container span6 text-left team2">
+                <img class="pull-left lazy figurette" alt="Open the map" src="assets/img/pixel.png" data-original="assets/img/cookies.png" alt="Preetam Salian"/>
+                <h4>Preetam Salian</h4>
+                <p class="small_font">
+                    Preetam has mastered in sales and business development. 
+                    Has been a part of several start-ups before he came up with the idea of HiringMonk.
+                    He also helped couple of start-up for integral business strategies.
+                    Loves food, football and fitness; you would surely find him adding life to the party.
                     <ul>
                         <li class="small_font"><i class="icon-envelope-alt"></i><a href="preetam@hiringmonk.com"> preetam@hiringmonk.com</a></li>
                         <?php /*
@@ -345,20 +328,15 @@
         </div>
         
         <!-- Newsletter -->
-        <div class="newsletter color-1">
-            <div class="inner-page row-fluid">
-                <div class="span4">
-                    <h4><strong>Be cool</strong>, subscribe to get our latest news</h4>
-                </div>
-                <div class="span6">
-                    <input type="email" placeholder="your@e-mail.com" name="EMAIL" class="subscribe">
-                </div>
-                <div class="span2">
-                    <button type="submit" class="btn pull-right subscribe">Subscribe</button>
-                </div>
+        <div class="clients color-3">
+            <div class="inner-page row-fluid" style="padding: 0;">
+                <ul class="clients list-inline">
+                    <li><a href="#" >Our Clients</a></li>
+                    <li><a href="#" >FAQs</a></li>
+                </ul>
             </div>
         </div>
-        
+
         <!-- The footer, social media icons, and copyright -->
         <footer class="page color-5">
             <div class="inner-page row-fluid">
