@@ -282,8 +282,8 @@
             <hr>
             <!-- Team -->
             <div class="row-fluid inner-page team">
-                <div class="span6">
-                    <img class="pull-left" src="assets/img/cookies.png" alt="A cookie"/>
+                <div class="lazy-container span6 text-left">
+                    <img class="pull-left lazy figurette" alt="Open the map" src="assets/img/pixel.png" data-original="assets/img/cookies.png" alt="Ateeque Shaikh"/>
                     <h4>Ateeque Shaikh</h4>
                     <p class="small_font">
                         Ateeque comes from HR background with more than 15 years of professional practices. 
@@ -292,15 +292,10 @@
                     </p>
                     <ul>
                         <li class="small_font"><i class="icon-envelope-alt"></i><a href="ateeque@hiringmonk.com"> ateeque@hiringmonk.com</a></li>
-                        <li class="social">
-                            <a href="#"><i class="icon-facebook-sign"></i></a>
-                            <a href="#"><i class="icon-twitter"></i></a>
-                            <a href="#"><i class="icon-github-sign"></i></a>
-                        </li>
                     </ul>
                 </div>
-                <div class="span6 team2">
-                    <img class="pull-left" src="assets/img/cookies.png" alt="A cookie"/>
+                <div class="lazy-container span6 text-left team2">
+                    <img class="pull-left lazy figurette" alt="Open the map" src="assets/img/pixel.png" data-original="assets/img/cookies.png" alt="Preetam Salian"/>
                     <h4>Preetam Salian</h4>
                     <p class="small_font">
                         Preetam has mastered in sales and business development. 
@@ -309,11 +304,13 @@
                         Loves food, football and fitness; you would surely find him adding life to the party.
                     <ul>
                         <li class="small_font"><i class="icon-envelope-alt"></i><a href="preetam@hiringmonk.com"> preetam@hiringmonk.com</a></li>
+                        <?php /*
                         <li class="social">
                             <a href="#"><i class="icon-facebook-sign"></i></a>
                             <a href="#"><i class="icon-twitter"></i></a>
                             <a href="#"><i class="icon-github-sign"></i></a>
                         </li>
+                        */ ?>
                     </ul>
                 </div>
             </div>
@@ -337,9 +334,9 @@
                 <div class="span6">
                     <div class="btn-container centered lazy-container text-center">
                         <img src="assets/img/pixel.png" class="lazy figurette" alt="Open the map" data-original="assets/img/map.png"/>
-                        <a class="lightbox iframe btn-map" target="blank" title="Open google maps" href="https://maps.google.com/maps?q=Stationsplein,+1012+Centrum,+Amsterdam,+Noord-Holland,+The+Netherlands&amp;hl=en"><i class="pull-left icon-map-marker"></i>
+                        <a class="lightbox iframe btn-map" target="blank" title="Open google maps" href="https://maps.google.com/maps?q=Mukadam+Compound%2C+Goregaon+Mulund+Link+Road%2C+Near+Oberoi+Mall%2C+Mumbai%2C+Maharashtra%2C+India&amp;hl=en"><i class="pull-left icon-map-marker"></i>
                             <div>
-                                Stationsplein, 1012 AB,<br/>Amsterdam,<br/> The Netherlands
+                                C/9, Mukadam Compound,<br/>Goregaon Mulund Link Road,<br/>Near Oberoi Mall, Goregaon-East,<br/>Mumbai, Maharashtra.
                             </div>
                         </a>
                     </div>
